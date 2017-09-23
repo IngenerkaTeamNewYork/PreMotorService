@@ -72,8 +72,5 @@ int main()
     HDC sp = txLoadImage ("sp.bmp");
     txBitBlt (txDC(), 200, 0, 200, 200, sp, 0, 0);
 
-
-
-
     return 0;
     }
